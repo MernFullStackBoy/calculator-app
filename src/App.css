@@ -1,0 +1,56 @@
+.App {
+  margin: 0 auto;
+  background-color: white;
+  max-width: 350px;
+  height: 599px;
+  position: relative;
+  top: 20px;
+  border-radius: 39px;
+  box-shadow: 0 0 20px 2px rgba(226, 226, 226, 0.212);
+}
+
+form {
+  width: 100%;
+  height: 170px;
+  border-radius: 39px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 20px;
+  display: flex;
+  align-items: end;
+}
+
+form input {
+  background-color: transparent;
+  border: none;
+  font-size: 60px;
+  color: black;
+  font-weight: 600;
+  text-align: right;
+  width: 100%;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  background-color: white;
+  color: rgb(0, 140, 255);
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 0 10px 1px rgba(159, 241, 241, 0.473);
+}
+
+.result{
+  width: 220px;
+}
